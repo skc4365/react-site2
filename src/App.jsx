@@ -16,6 +16,7 @@ function App() {
           <Route path="/react-site2/" element={<Layout />} />
           <Route index element={<Home />} />
           <Route path="/react-site2/login" element={<Login />} />
+          <Route path="/react-site2/work1" element={<Work1 />} />
         </Routes>
       </BrowserRouter>
     </>

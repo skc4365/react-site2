@@ -12,6 +12,9 @@ function Layout() {
                     <li>
                         <Link to="/react-site2/login">Login</Link>
                     </li>
+                    <li>
+                        <Link to="/react-site2/work1">Work1</Link>
+                    </li>
 
                 </ul>
             </nav>
