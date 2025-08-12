@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter as Router, HashRouter, Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
 // import { useState } from "react";
 import "./App.css";
@@ -12,14 +12,14 @@ function App() {
   return (
     <>
       <h1>과제방</h1>
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route path="/react-site2/" element={<Layout />} />
           <Route index element={<Home />} />
           <Route path="/react-site2/login" element={<Login />} />
           <Route path="/react-site2/work1" element={<Work1 />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </>
   )
 }
