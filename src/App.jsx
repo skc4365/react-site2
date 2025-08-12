@@ -5,6 +5,7 @@ import "./App.css";
 import Login from "./compo/Login";
 import Home from "./compo/Home";
 import Layout from "./compo/Layout";
+import Work1 from "./compo/Work1";
 
 function App() {
 
